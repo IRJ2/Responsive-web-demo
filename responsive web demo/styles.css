@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    height: initial;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+/* code for nav bar starts here */
+.nav-outer{
+    display: block;
+    position: sticky;
+    top: 0;
+    /* margin-top: -20px; */
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.nav-bar{
+    align-items: center;
+    width: fit-content;
+    margin: auto auto;
+    display: block;
+    height: 60px;
+    
+    
+}
+.menu-item ul{
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+.menu-item li{
+    list-style-type: none;
+    float: left;
+    margin:0 20px ;
+    
+}
+.menu-item li a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    
+}
+.menu-item li a:hover{
+    background-color: white;
+    border:solid 2px black ;
+    transition-duration: 200ms;
+}
+/* code for nav bar ends here */
+/* code for main img starts here */
+.main-img{
+    width: 100%;
+    clear: both;
+    background-image: url('asset/main-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+/* code for main img ends here */
+/* code for main img starts here */
+.main-title-block
+{
+    color: white;
+    border: solid white 2px;
+}
+.main-title-block h1,h3{
+    font-weight: 3;
+}
+/* code for main img ends here */
