@@ -7,6 +7,9 @@ html{
     margin: 0;
     padding: 0;
 }
+* {
+    box-sizing: border-box;
+  }
 /* code for nav bar starts here */
 .nav-outer{
     display: block;
@@ -62,15 +65,109 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    display: table;
+    margin: 0;
+    padding: 0;
 }
 /* code for main img ends here */
-/* code for main img starts here */
+/* code for main title starts here */
 .main-title-block
 {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     border: solid white 2px;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    
 }
 .main-title-block h1,h3{
     font-weight: 3;
+    padding: 0;
+    text-align: center;
 }
-/* code for main img ends here */
+.main-title-block h1{
+    font-size: 4vw;
+}
+.main-title-block h3{
+    font-size: 2vw;
+}
+/* code for main title ends here */
+/* code for about starts here */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    /* border: 1px solid red; */
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.abt-img img{
+   width: 100%;
+   height:auto;
+   
+}
+.abt-img {
+    margin: 0;
+}
+.abt-me h2,p{
+    margin: 20px 50px 50px 30px;
+}
+.abt-me p{
+    width: 70%;
+    color: rgb(114, 114, 101);
+    text-align: justify;
+    line-height: 30px;
+}
+.abt-me h2{
+    font-weight: 0px;
+    font-size: 4vw;
+}
+
+/* code for about ends here */
+/* code for gallery starts here */
+.polaroid{
+    background-color: white;
+    width: 80%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+.gallery{
+    margin: 20px;
+}
+/* code for gallery ends here */
+
+.footer{
+    margin-top: 100px;
+    margin-bottom: 0ch;
+    /* border: solid 1px rgb(114, 114, 101); */
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -5px 10px rgb(185, 185, 179);
+    height: 50px;
+    bottom: 0;
+    
+}
+.footer p{
+    margin-bottom: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+}
