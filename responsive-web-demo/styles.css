@@ -1,0 +1,404 @@
+body{
+    margin: 0px;
+    height: initial;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+.nav-bar{
+    align-items: center;
+    width: 100%;
+    display: block;
+    height: 60px;
+    margin:0;
+    
+}
+.menu-item ul{
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menu-item li{
+    width: 100%;
+    list-style-type: none;
+    float: left;
+    margin: 0px 0px 0px -20px;
+    text-align: center;
+    
+}
+.menu-item li a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    
+}
+.menu-item li a:hover{
+    background-color: white;
+    border:solid 2px black ;
+    transition-duration: 200ms;
+}
+/* code for nav bar ends here */
+/* code for main img starts here */
+.main-img{
+    width: 100%;
+    clear: both;
+    background-image: url('asset/main-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+/* code for main img ends here */
+/* code for main title starts here */
+.main-title-block
+{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: solid white 2px;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    
+}
+.main-title-block h1,h3{
+    font-weight: 3;
+    padding: 0;
+    text-align: center;
+}
+.main-title-block h1{
+    font-size: 10VW;
+}
+.main-title-block h3{
+    font-size: 4vw;
+}
+/* code for main title ends here */
+/* code for about starts here */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.abt-img img{
+   width: 100%;
+   height:auto;
+   display: none;
+   
+}
+.abt-img {
+    margin: 0;
+}
+.abt-me h2,p{
+    margin: 20px 50px 50px 30px;
+}
+.abt-me p{
+    width: 70%;
+    color: rgb(114, 114, 101);
+    text-align: justify;
+    line-height: 30px;
+}
+.abt-me h2{
+    font-weight: 0px;
+    font-size: 30px;
+}
+
+/* code for about ends here */
+/* code for gallery starts here */
+.polaroid{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+.gallery{
+    margin: 20px;
+}
+/* code for gallery ends here */
+
+.footer{
+    margin-top: 100px;
+    margin-bottom: 0ch;
+    /* border: solid 1px rgb(114, 114, 101); */
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -5px 10px rgb(185, 185, 179);
+    height: 50px;
+    bottom: 0;
+    
+}
+.footer p{
+    margin-bottom: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    [class*="col-s"] {
+        float: left;
+    
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+     /* code for nav bar starts here */
+    
+.nav-outer{
+    display: block;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.nav-bar{
+    align-items: center;
+    width: fit-content;
+    margin: auto auto;
+    display: block;
+    height: 60px;
+    
+    
+}
+.menu-item ul{
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+.menu-item li{
+    width: auto;
+    list-style-type: none;
+    float: left;
+    margin:0  ;
+    
+}
+.menu-item li a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    color: black;
+    font-size: 13px;
+    
+}
+.menu-item li a:hover{
+    background-color: white;
+    border:solid 2px black ;
+    transition-duration: 200ms;
+} 
+.abt-me p{
+    font-size: 20px;
+}
+
+/* code for nav bar ends here */
+/* code for gallery starts here */
+.polaroid{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 80%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+.gallery{
+    margin: 20px;
+}
+/* code for gallery ends here*/
+
+}
+  
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    [class*="col-"] {
+        float: left;
+    
+      }
+    /* code for nav bar starts here */
+    
+.nav-outer{
+    display: block;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.nav-bar{
+    align-items: center;
+    width: fit-content;
+    margin: auto auto;
+    display: block;
+    height: 60px;
+    
+    
+}
+.menu-item ul{
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+.menu-item li{width: auto;
+    list-style-type: none;
+    float: left;
+    margin:0 20px ;
+    
+}
+.menu-item li a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    
+}
+.menu-item li a:hover{
+    background-color: white;
+    border:solid 2px black ;
+    transition-duration: 200ms;
+} 
+/* code for nav bar ends here */
+/* code for main img starts here*/
+.main-img{
+    width: 100%;
+    clear: both;
+    background-image: url('asset/main-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+/* code for main img ends here */
+/* code for main title starts here */
+.main-title-block
+{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: solid white 2px;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    
+}
+.main-title-block h1,h3{
+    font-weight: 3;
+    padding: 0;
+    text-align: center;
+}
+.main-title-block h1{
+    font-size: 4vw;
+}
+.main-title-block h3{
+    font-size: 2vw;
+}
+/* code for main title ends here */
+/* code for about starts here */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.abt-img img{
+   width: 100%;
+   height:auto;
+   display: inherit;
+   
+}
+.abt-img {
+    margin: 0;
+}
+.abt-me h2,p{
+    margin: 20px 50px 50px 30px;
+}
+.abt-me p{
+    width: 70%;
+    color: rgb(114, 114, 101);
+    text-align: justify;
+    line-height: 30px;
+    font-size: 15px;
+}
+.abt-me h2{
+    font-weight: 0px;
+    font-size: 4vw;
+}
+
+/* code for about ends here */
+/* code for gallery starts here */
+.polaroid{
+    background-color: white;
+    width: 80%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    height: 100px;
+}
+.gallery{
+    margin: 20px;
+}
+/* code for gallery ends here*/
+
+}
